@@ -22,9 +22,6 @@ def swap_elements_from_to(array, index, destination_index)
   return array 
 end 
 
-# have swapped them but it returns the swapped elements, not full array 
-# => ["c", "a"]
-
 def reverse_array(array) 
   reversed_array = array.reverse 
 end 
