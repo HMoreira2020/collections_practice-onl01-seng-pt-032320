@@ -19,6 +19,7 @@ end
 
 def swap_elements_from_to(array, index, destination_index)
   array[index], array[destination_index] =  array[destination_index], array[index] 
+  return array 
 end 
 
 # have swapped them but it returns the swapped elements, not full array 
